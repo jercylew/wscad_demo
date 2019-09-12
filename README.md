@@ -23,7 +23,6 @@ No. | Task | Status
 2 | XML import | Done, please see the designed .xml file file in Test directory
 3 | Export to PDF | Done, Done, using PDFSharp, a open source library to generate the graphs into a PDF file
 4 | Show the intersection points | Done
-5 | Select the primitives by clicking it in the view and show its information | Done, selection can be done via clicking either the graph itself or the corresponding
-tree node in the left hand tree view
+5 | Select the primitives by clicking it in the view and show its information | Done, selection can be done via clicking either the graph itself or the corresponding tree node in the left hand tree view
 6 | Draw primitives using SetPixel() method | NOT DONE: No time, too complex, ~_~
 
