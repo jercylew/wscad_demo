@@ -89,6 +89,7 @@
             // 
             this.shapeInfoLabel.Margin = new System.Windows.Forms.Padding(20, 3, 0, 2);
             this.shapeInfoLabel.Name = "shapeInfoLabel";
+            this.shapeInfoLabel.Overflow = System.Windows.Forms.ToolStripItemOverflow.Always;
             resources.ApplyResources(this.shapeInfoLabel, "shapeInfoLabel");
             // 
             // MainWindow

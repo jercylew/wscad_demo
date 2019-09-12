@@ -1,0 +1,81 @@
+[
+	{
+		"type": "line",
+		"a": "-32.2; -300",
+		"b": "-32.2; 300",
+		"color": "127; 0; 0; 255",
+		"lineType": "solid"
+	},
+	{
+		"type": "line",
+		"a": "-100; 59.7",
+		"b": "100; 59.7",
+		"color": "127; 0; 0; 255",
+		"lineType": "solid"
+	},
+	{
+		"type": "line",
+		"a": "-110,53; 20,4",
+		"b": "94,2; 187,7",
+		"color": "127; 0; 0; 255",
+		"lineType": "solid"
+	},
+	{
+		"type": "line",
+		"a": "-406,53; 187,4",
+		"b": "-127,2; 62,7",
+		"color": "127; 0; 0; 255",
+		"lineType": "solid"
+	},
+	{
+		"type": "circle",
+		"center": "0; 0",
+		"radius": 25.0,
+		"filled": false,
+		"color": "127; 255; 0; 0",
+		"lineType": "dot"
+	},
+	{
+		"type": "triangle",
+		"a": "-60; -50",
+		"b": "40; -42,3",
+		"c": "0; 108",
+		"filled": false,
+		"color": "127; 255; 0; 255",
+		"lineType": "dashDot"
+	},
+	{
+		"type": "rectangle",
+		"a": "-15; -20",
+		"width": 83.5,
+		"height": 55.25,
+		"filled": false,
+		"color": "127; 255; 0; 255",
+		"lineType": "dashDot"
+	},
+	{
+		"type": "rectangle",
+		"a": "15; -67",
+		"width": 152.5,
+		"height": 45.25,
+		"filled": true,
+		"color": "127; 220; 0; 0",
+		"lineType": "solid"
+	},
+	{
+		"type": "circle",
+		"center": "58; 0",
+		"radius": 250.0,
+		"filled": false,
+		"color": "127; 0; 0; 0",
+		"lineType": "solid"
+	},
+	{
+		"type": "circle",
+		"center": "-217.32; 130.65",
+		"radius": 82.27,
+		"filled": false,
+		"color": "127; 0; 255; 0",
+		"lineType": "solid"
+	}
+] 

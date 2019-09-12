@@ -39,7 +39,14 @@ namespace WSCAD_Demo
             if (dicTPageGraphDoc != null)
             {
                 dicTPageGraphDoc.Clear();
-                dicTPageGraphDoc.Distinct();
+            }
+            if (ddicTnodeShape != null)
+            {
+                ddicTnodeShape.Clear();
+            }
+            if (ddicTNodeTPage != null)
+            {
+                ddicTNodeTPage.Clear();
             }
             if (mImageList != null)
             {
@@ -154,6 +161,7 @@ namespace WSCAD_Demo
                 if (ddicTnodeShape.TryGetValue(e.Node, out Shape selectedShape))
                 {
                     selectedShape.IsSelected = true;
+                    shapeInfoLabel.Text = selectedShape.ToString();
                 }
 
                 tabPage.Refresh();
@@ -411,7 +419,7 @@ namespace WSCAD_Demo
             limitWorld = Math.Max(limitWorld, Math.Abs(graphDoc.minY));
 
             float limitWindow = (float)(Math.Min(width, height) / 2.0);
-            scale = (float)(limitWindow / limitWorld) * 0.85f; //Set aside 0.85 for margin
+            scale = (float)(limitWindow / limitWorld) * 0.95f; //Set aside 0.85 for margin
 
             return scale;
         }
@@ -439,7 +447,7 @@ namespace WSCAD_Demo
 
                 //Cannot call treeView.Focus() right from here, time is too short
                 timer.Tick += new EventHandler(TimerEventProcessor);
-                timer.Interval = 150;
+                timer.Interval = 200;
                 timer.Start();
             }
         }

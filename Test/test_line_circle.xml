@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shapes>
+  <!-- <shape> -->
+    <!-- <type>line</type> -->
+    <!-- <a>-110,53; 20,4</a> -->
+    <!-- <b>95,2; 120,7</b> -->
+    <!-- <color>127; 0; 0; 0</color> -->
+    <!-- <lineType>solid</lineType> -->
+  <!-- </shape> -->
+  <shape>
+    <type>line</type>
+    <a>77,8; 194,4</a>
+    <b>77,8; -160,7</b>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>58; 0</center>
+    <radius>150</radius>
+    <filled>false</filled>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+</shapes>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shapes>
+  <shape>
+    <type>circle</type>
+    <center>0; 0</center>
+    <radius>15</radius>
+    <filled>false</filled>
+    <color>127; 255; 0; 0</color>
+    <lineType>dot</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>25; 0</center>
+    <radius>10</radius>
+    <filled>false</filled>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>0; 25</center>
+    <radius>10</radius>
+    <filled>false</filled>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>-6.2; -9.3</center>
+    <radius>12</radius>
+    <filled>false</filled>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+</shapes>

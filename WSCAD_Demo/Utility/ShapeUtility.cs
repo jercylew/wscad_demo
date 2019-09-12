@@ -107,10 +107,10 @@ namespace WSCAD_Demo.Utility
             if (l.IsVerticalLine())
             {
                 float x = l.Start.X;
-                float y = (float)Math.Sqrt(c.Radius * c.Radius - x * x);
+                float y = (float)Math.Sqrt(c.Radius * c.Radius - Math.Pow((x - c.Center.X), 2));
 
-                point1 = new PointF(x + c.Center.X, y + c.Center.Y);
-                point2 = new PointF(x + c.Center.X, c.Center.Y - y);
+                point1 = new PointF(x, c.Center.Y + y);
+                point2 = new PointF(x, c.Center.Y - y);
             }
             else
             {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shapes>
+  <shape>
+    <type>line</type>
+    <a>-110,53; 20,4</a>
+    <b>95,2; 120,7</b>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>0; 0</center>
+    <radius>15</radius>
+    <filled>false</filled>
+    <color>127; 255; 0; 0</color>
+    <lineType>dot</lineType>
+  </shape>
+  <shape>
+    <type>triangle</type>
+    <a>-15; -20</a>
+    <b>15; -20,3</b>
+    <c>0; 21</c>
+    <filled>false</filled>
+    <color>127; 255; 0; 255</color>
+    <lineType>dashDot</lineType>
+  </shape>
+  <shape>
+    <type>rectangle</type>
+    <a>-15; -20</a>
+    <width>52.5</width>
+    <height>24.25</height>
+    <filled>false</filled>
+    <color>127; 255; 0; 255</color>
+    <lineType>dashDot</lineType>
+  </shape>
+  <shape>
+    <type>rectangle</type>
+    <a>15; -20</a>
+    <width>152.5</width>
+    <height>45.25</height>
+    <filled>true</filled>
+    <color>127; 220; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+  <shape>
+    <type>circle</type>
+    <center>58; 0</center>
+    <radius>150</radius>
+    <filled>false</filled>
+    <color>127; 0; 0; 0</color>
+    <lineType>solid</lineType>
+  </shape>
+</shapes>
