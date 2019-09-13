@@ -139,7 +139,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(ProjectDir)\res $(ProjectDir)\bin\Release\res /I /Y
+    <PostBuildEvent>xcopy $(ProjectDir)\res $(ProjectDir)\bin\$(Configuration)\res /I /Y
 </PostBuildEvent>
   </PropertyGroup>
 </Project>
