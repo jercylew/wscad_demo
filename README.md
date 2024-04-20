@@ -28,3 +28,6 @@ No. | Task | Status
 
 *Please also note that this app support opening multiple files, graphs for each file are shhown as Tabs, user can also close the tab pages, see the screenshot in the Test directory*
 
+### Screenshot
+![screenshot.JPG](./Test/output/screenshot.JPG)
+
